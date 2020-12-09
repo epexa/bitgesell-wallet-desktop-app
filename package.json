@@ -1,0 +1,33 @@
+{
+  "name": "bitgesell-wallet",
+  "version": "0.8.1",
+  "description": "Bitgesell Wallet Electron",
+  "license": "Proprietary",
+  "author": "epexa",
+  "main": "src/main.js",
+  "repository": "epexa/bitgesell-wallet-electron",
+  "config": {
+    "electron_builder_params": "--linux snap AppImage --win nsis portable"
+  },
+  "scripts": {
+    "test": "eslint 'src/*.js'",
+    "start": "npm test && electron .",
+    "build": "electron-builder $npm_package_config_electron_builder_params",
+    "deploy": "electron-builder --publish always $npm_package_config_electron_builder_params"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.5"
+  },
+  "devDependencies": {
+    "electron": "^11.0.3",
+    "electron-builder": "^22.9.1",
+    "eslint": "^5.15.3",
+    "eslint-config-google": "^0.12.0",
+    "husky": "^2.3.0"
+  }
+}
