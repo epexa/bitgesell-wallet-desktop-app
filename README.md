@@ -22,10 +22,31 @@
 
 - ### 3) BUILD
 
+Preparation:
 1. Rename [electron-builder-example.yml](electron-builder-example.yml) to `electron-builder.yml`
-2. Specify [GitHub token](https://github.com/settings/tokens) in electron-builder.yml
+2. Specify [GitHub token](https://github.com/settings/tokens) in electron-builder.yml (scopes: public_repo)
+
+And:
 
 `npm run build`
 
-- ### 4) DEPLOY
+- ### 4) TEST
+
+`sudo dpkg -i dist/bitgesell-wallet_0.8.3_amd64.deb`
+
+`sudo snap install --dangerous dist/bitgesell-wallet_0.8.3_amd64.snap`
+
+- ### 5) DEPLOY
+
+Preparation:
+`snap login`
+
+And:
+
 `npm run deploy`
+
+------------
+
+## Contacts
+
+Telegram: [@epexa](https://t.me/epexa)
