@@ -1,14 +1,14 @@
 {
   "name": "bitgesell-wallet",
-  "version": "0.9.0",
-  "description": "Bitgesell Wallet Electron",
+  "version": "0.9.1",
+  "description": "Bitgesell Wallet Desktop App",
   "license": "Proprietary",
   "author": {
     "name": "epexa",
     "email": "hot@erlan.dev"
   },
   "main": "src/main.js",
-  "repository": "epexa/bitgesell-wallet-electron",
+  "repository": "epexa/bitgesell-wallet-desktop-app",
   "config": {
     "electron_builder_params": "--linux snap AppImage deb --win nsis portable"
   },
