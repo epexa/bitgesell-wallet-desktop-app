@@ -5,10 +5,10 @@
 ## Build versions
 
 - ### Linux (Snap): https://snapcraft.io/bitgesell-wallet
-- ### Linux (AppImage): https://github.com/epexa/bitgesell-wallet-desktop-app/releases/download/v0.9.5/Bitgesell-Wallet-0.9.5.AppImage
-- ### Linux (deb): https://github.com/epexa/bitgesell-wallet-desktop-app/releases/download/v0.9.5/bitgesell-wallet_0.9.5_amd64.deb
-- ### Windows: https://github.com/epexa/bitgesell-wallet-desktop-app/releases/download/v0.9.5/Bitgesell-Wallet-Setup-0.9.5.exe
-- ### Windows (portable): https://github.com/epexa/bitgesell-wallet-desktop-app/releases/download/v0.9.5/Bitgesell-Wallet-portable.exe
+- ### Linux (AppImage): https://github.com/epexa/bitgesell-wallet-desktop-app/releases/download/v0.9.6/Bitgesell-Wallet-0.9.6.AppImage
+- ### Linux (deb): https://github.com/epexa/bitgesell-wallet-desktop-app/releases/download/v0.9.6/bitgesell-wallet_0.9.6_amd64.deb
+- ### Windows: https://github.com/epexa/bitgesell-wallet-desktop-app/releases/download/v0.9.6/Bitgesell-Wallet-Setup-0.9.6.exe
+- ### Windows (portable): https://github.com/epexa/bitgesell-wallet-desktop-app/releases/download/v0.9.6/Bitgesell-Wallet-portable.exe
 
 ------------
 
@@ -33,13 +33,13 @@ And:
 - ### 4) TEST
 
 install deb package:
-`sudo dpkg -i dist/bitgesell-wallet_0.9.5_amd64.deb`
+`sudo dpkg -i dist/bitgesell-wallet_0.9.6_amd64.deb`
 
 remove deb package:
 `sudo dpkg --remove bitgesell-wallet`
 
 install snap package:
-`sudo snap install --dangerous dist/bitgesell-wallet_0.9.5_amd64.snap`
+`sudo snap install --dangerous dist/bitgesell-wallet_0.9.6_amd64.snap`
 
 remove snap package:
 `sudo snap remove bitgesell-wallet`

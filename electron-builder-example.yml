@@ -1,6 +1,6 @@
 appId: io.bglwallet
 productName: Bitgesell Wallet
-copyright: Copyright © 2020 epexa
+copyright: Copyright © 2023 epexa
 linux:
   icon: src/icons
 mac:
