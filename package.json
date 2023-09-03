@@ -1,6 +1,6 @@
 {
   "name": "bitgesell-wallet",
-  "version": "0.9.6",
+  "version": "0.9.7",
   "description": "Bitgesell Wallet Desktop App",
   "license": "Proprietary",
   "author": {
@@ -10,7 +10,7 @@
   "main": "src/main.js",
   "repository": "epexa/bitgesell-wallet-desktop-app",
   "config": {
-    "electron_builder_params": "--linux snap AppImage deb --win nsis portable"
+    "electron_builder_params": "--linux snap AppImage deb pacman --win nsis portable"
   },
   "scripts": {
     "test": "eslint 'src/*.js'",
@@ -24,13 +24,13 @@
     }
   },
   "dependencies": {
-    "electron-updater": "^4.3.5"
+    "electron-updater": "^6.1.1"
   },
   "devDependencies": {
-    "electron": "^11.0.3",
-    "electron-builder": "^22.9.1",
-    "eslint": "^5.15.3",
-    "eslint-config-google": "^0.12.0",
-    "husky": "^2.3.0"
+    "electron": "^22.3.21",
+    "electron-builder": "^24.6.3",
+    "eslint": "^8.47.0",
+    "eslint-config-google": "^0.14.0",
+    "husky": "^8.0.3"
   }
 }
