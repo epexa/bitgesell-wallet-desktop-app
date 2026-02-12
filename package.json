@@ -1,6 +1,6 @@
 {
   "name": "bitgesell-wallet",
-  "version": "0.9.8",
+  "version": "0.9.9",
   "description": "Bitgesell Wallet Desktop App",
   "license": "Proprietary",
   "author": {
@@ -20,15 +20,15 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test"
+      "pre-commit": "npm run eslint"
     }
   },
   "dependencies": {
-    "electron-updater": "^6.3.9"
+    "electron-updater": "^6.7.3"
   },
   "devDependencies": {
     "electron": "^22.3.27",
-    "electron-builder": "^25.1.8",
+    "electron-builder": "^26.7.0",
     "eslint": "^9.21.0",
     "eslint-config-google": "^0.14.0",
     "husky": "^9.1.7"

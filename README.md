@@ -5,11 +5,11 @@
 ## Build versions
 
 - ### Linux (Snap): https://snapcraft.io/bitgesell-wallet
-- ### Linux (AppImage): https://github.com/epexa/bitgesell-wallet-desktop-app/releases/download/v0.9.8/Bitgesell-Wallet-0.9.8.AppImage
-- ### Linux (deb): https://github.com/epexa/bitgesell-wallet-desktop-app/releases/download/v0.9.8/bitgesell-wallet_0.9.8_amd64.deb
-- ### Linux (pacman): https://github.com/epexa/bitgesell-wallet-desktop-app/releases/download/v0.9.8/bitgesell-wallet-0.9.8.pacman
-- ### Windows: https://github.com/epexa/bitgesell-wallet-desktop-app/releases/download/v0.9.8/Bitgesell-Wallet-Setup-0.9.8.exe
-- ### Windows (portable): https://github.com/epexa/bitgesell-wallet-desktop-app/releases/download/v0.9.8/Bitgesell-Wallet-portable.exe
+- ### Linux (AppImage): https://github.com/epexa/bitgesell-wallet-desktop-app/releases/download/v0.9.9/Bitgesell-Wallet-0.9.9.AppImage
+- ### Linux (deb): https://github.com/epexa/bitgesell-wallet-desktop-app/releases/download/v0.9.9/bitgesell-wallet_0.9.9_amd64.deb
+- ### Linux (pacman): https://github.com/epexa/bitgesell-wallet-desktop-app/releases/download/v0.9.9/bitgesell-wallet-0.9.9.pacman
+- ### Windows: https://github.com/epexa/bitgesell-wallet-desktop-app/releases/download/v0.9.9/Bitgesell-Wallet-Setup-0.9.9.exe
+- ### Windows (portable): https://github.com/epexa/bitgesell-wallet-desktop-app/releases/download/v0.9.9/Bitgesell-Wallet-portable.exe
 
 ------------
 
@@ -34,19 +34,19 @@ And:
 - ### 4) TEST
 
 install deb package:
-`sudo dpkg -i dist/bitgesell-wallet_0.9.8_amd64.deb`
+`sudo dpkg -i dist/bitgesell-wallet_0.9.9_amd64.deb`
 
 remove deb package:
 `sudo dpkg --remove bitgesell-wallet`
 
 install pacman package:
-`sudo pacman -U dist/bitgesell-wallet-0.9.8.pacman`
+`sudo pacman -U dist/bitgesell-wallet-0.9.9.pacman`
 
 remove pacman package:
 `sudo pacman -R bitgesell-wallet`
 
 install snap package:
-`sudo snap install --dangerous dist/bitgesell-wallet_0.9.8_amd64.snap`
+`sudo snap install --dangerous dist/bitgesell-wallet_0.9.9_amd64.snap`
 
 remove snap package:
 `sudo snap remove bitgesell-wallet`
@@ -54,7 +54,7 @@ remove snap package:
 - ### 5) DEPLOY
 
 Preparation:
-`snap login`
+`snapcraft login`
 
 And:
 
@@ -64,4 +64,4 @@ And:
 
 ## Contacts
 
-Telegram: [@BGLWallet](https://t.me/BGLWallet)
+Telegram: [@BitgesellApp](https://t.me/BitgesellApp)
